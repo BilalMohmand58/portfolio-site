@@ -26,6 +26,7 @@ import {
   CoffeShop,
   weatherApp,
   touristooApp,
+  noImage,
 } from "../assets";
 
 export const navLinks = [
@@ -34,9 +35,10 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",
     title: "Projects",
   },
+  { id: "work", title: "Work" },
   {
     id: "contact",
     title: "Contact",
@@ -49,16 +51,18 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: creator,
   },
+
   {
-    title: "Backend Developer",
+    title: "MERN Developer",
     icon: backend,
   },
+
   {
-    title: "Front end development",
-    icon: creator,
+    title: "React Native Developer",
+    icon: mobile,
   },
 ];
 
@@ -123,7 +127,7 @@ const experiences = [
     company_name: "Sync Interns",
     // icon: starbucks,
     // iconBg: "#383E56",
-    date: "March 2023 - April 2021",
+    date: "March 2023 - April 2023",
     points: [
       "Developed responsive user interfaces using React.js for web applications.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -227,14 +231,14 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: noImage,
     source_code_link: "https://github.com/BilalMohmand58/blog-app-mern",
     live_demo_link: "https://github.com/BilalMohmand58/blog-app-mern",
   },
 
   {
     name: "Coffee Shop UI",
-    description: `The React-based Coffee Shop UI is a sleek and modern one-page website that captures the essence of a coffee shop. Its intuitive user interface offers a seamless browsing experience for customers to explore various meals`,
+    description: `Experience the essence of a modern coffee shop with the React Coffee Shop UI. This sleek one-page website offers an intuitive interface for seamless meal exploration.`,
     tags: [
       {
         name: "react",
@@ -257,7 +261,7 @@ const projects = [
 
   {
     name: "Expenses Mobile App",
-    description: `The Simple Expense Tracker is a user-friendly React Native app for effortless daily expense tracking. Easily add, delete, and update expenses with a clean interface. Stay on top of your finances by viewing recent expenses for the week.`,
+    description: `Simplify expense tracking with the Simple Expense Tracker. This React Native app offers a clean interface and weekly summaries.`,
     tags: [
       {
         name: "react native",
@@ -268,12 +272,8 @@ const projects = [
         name: "mobile",
         color: "pink-text-gradient",
       },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
     ],
-    image: carrent,
+    image: noImage,
     source_code_link:
       "https://github.com/BilalMohmand58/expensesTrackerReactNativeApp",
     live_demo_link:
@@ -282,7 +282,7 @@ const projects = [
 
   {
     name: "GuessNumber Game",
-    description: `Guess Number is a thrilling React Native mobile app where players try to guess a secret number within a range. With a sleek interface, input your guesses, receive feedback on whether they're too high or too low`,
+    description: `Guess Number is a thrilling React Native app. Try to guess the secret number and receive feedback with its sleek interface.`,
     tags: [
       {
         name: "react native",
@@ -298,7 +298,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: noImage,
     source_code_link:
       "https://github.com/BilalMohmand58/guessNumberReactNativeGame",
     live_demo_link:

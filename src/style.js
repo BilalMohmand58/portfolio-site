@@ -6,11 +6,14 @@ const styles = {
   heroHeadText:
     "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
 
-  heroHeadSubText: "font-black text-white text-[40px] lg:leading-[98px] mt-2",
+  heroHeadSubText:
+    " hidden md:block lg:block sm:block   font-black text-white text-[40px] lg:leading-[98px] mt-2",
 
   heroSubText:
-    "text-[#dfd9ff] font-medium  hidden md:block lg:block sm:block  lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+    "text-[#dfd9ff] font-medium   lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
+  emailSubText:
+    "font-medium   lg:text-[25px] sm:text-[15px] xs:text-[12px] text-[13px] lg:leading-[15px]  w-fit  ",
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:

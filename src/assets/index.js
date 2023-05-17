@@ -34,6 +34,7 @@ import website from "./website.png";
 import CoffeShop from "./CoffeShop.png";
 import weatherApp from "./weatherApp.png";
 import touristooApp from "./touristooApp.png";
+import noImage from "./noImage.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   CoffeShop,
   weatherApp,
   touristooApp,
+  noImage,
 };
